@@ -104,8 +104,3 @@ The analysis reveals distinct behavioral differences between casual and annual r
 
 ---
 
-### Links:
-- [Data Collection_Python GitHub](#)
-- [Data Cleaning_SQL GitHub](#)
-- [Data Analysis_SQL GitHub](#)
-- [Tableau Visualization](#)
