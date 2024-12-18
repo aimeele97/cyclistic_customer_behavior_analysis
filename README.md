@@ -26,7 +26,7 @@
 ### 1.1. Summary
 This project analyzes Cyclistic’s one-year bike ride data from Chicago, aiming to identify key differences between casual riders and annual members. The goal is to help the marketing team understand customer behaviors and develop strategies to convert casual riders into annual members, which is critical for the company’s growth and sustainability.
 
-[Read More About the Case Study](#)
+[Read More About the Case Study](/Case%20Study%201_How%20does%20a%20bike-shared%20navigate%20speedy%20success_.pdf)
 
 ### 1.2. About the Company
 Cyclistic, launched in 2016, operates a popular bike-share program in Chicago. The program has expanded to include over 5,800 bicycles and 692 stations across the city. Customers can rent bikes through single-ride, full-day passes, or annual memberships. Annual members are key to the business model, but casual riders account for a significant portion of usage. 
