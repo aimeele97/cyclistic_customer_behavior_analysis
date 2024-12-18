@@ -11,7 +11,6 @@
    2.2. [Data Cleaning and Manipulation (SQL)](#22-data-cleaning-and-manipulation-sql)  
       - 2.2.1. [Detect and Remove Duplicates](#221-detect-and-remove-duplicates)  
       - 2.2.2. [Remove Data Errors](#222-remove-data-errors)  
-      - 2.2.3. [Cleaned Data](#223-cleaned-data)  
    2.3. [Data Analysis (SQL)](#23-data-analysis-sql)  
    2.4. [Data Visualization](#24-data-visualization)  
    2.5. [Key Insights and Recommendations](#25-key-insights-and-recommendations)  
@@ -47,7 +46,7 @@ The dataset used for this analysis consists of Cyclistic’s historical ride dat
 ## 2. Data Analysis Process
 
 ### 2.1. Data Collection (Python)
-Using **Pandas** and **OS** libraries in Python, I collected and merged monthly ride data from December 2023 to November 2024 into a single dataset. The Python script for this task can be found in the [Data Collection_Python GitHub repository](#).
+Using **Pandas** and **OS** libraries in Python, I collected and merged monthly ride data from December 2023 to November 2024 into a single dataset. The Python script for this task can be found in the [Combine_Datasets](/Combine_Datasets.ipynb).
 
 ### 2.2. Data Cleaning and Manipulation (SQL)
 
@@ -57,16 +56,10 @@ I identified duplicate rows in the dataset caused by system errors, particularly
 #### 2.2.2. Remove Data Errors
 Some rows contained invalid data, such as ride start times later than the end times. These rows were removed to ensure data integrity.
 
-SQL code for cleaning:
-```sql
-DELETE FROM rides WHERE started_at >= ended_at;
-```
-
-#### 2.2.3. Cleaned Data
 - **Original dataset**: 5,906,269 rows
-- **Cleaned dataset**: 5,905,278 rows (991 rows deleted)
+- **Cleaned dataset after removing duplicates and data errors**: 5,905,278 rows (991 rows deleted)
 
-Note: Rows with null values in start and end locations were retained since they still contained valid latitude and longitude data.
+*Note: Rows with null values in start and end locations were retained since they still contained valid latitude and longitude data.*
 
 ### 2.3. Data Analysis (SQL)
 Using SQL queries, I analyzed the cleaned dataset to uncover patterns and trends, including:
@@ -74,13 +67,13 @@ Using SQL queries, I analyzed the cleaned dataset to uncover patterns and trends
 - Differences in usage between casual riders and annual members (e.g., ride duration, time of day)
 - Ride location preferences and their correlation with rider type
 
-Key findings include:
+__Key findings include:__
 - Casual riders account for about 37% of the total rides.
 - Casual riders tend to use bikes more on weekends and for longer durations compared to members.
 - Members prefer weekdays and shorter, more frequent rides.
 
 ### 2.4. Data Visualization
-I used **Tableau** to create visualizations highlighting key differences in usage patterns between casual riders and annual members. The visualizations emphasize ride locations, time of day, and ride duration. You can explore the visualizations on [Tableau Public](#).
+I used **Tableau** to create visualizations highlighting key differences in usage patterns between casual riders and annual members. The visualizations emphasize ride locations, time of day, and ride duration. You can explore the visualizations on [Tableau Public](https://public.tableau.com/app/profile/aimee.le9707/viz/CyclisticDashboard_17343165311580/Dashboard1).
 
 ### 2.5. Key Insights and Recommendations
 
