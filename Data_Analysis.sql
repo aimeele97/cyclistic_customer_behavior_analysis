@@ -89,7 +89,7 @@ SELECT member_casual,
 FROM dbo.rides_2024_cleaned
 group by member_casual;
 
--- 10. Calculate the number of rides for each bicycle type between casual and member
+-- 10. Calculate the distribution of bicycle type rides between casual users and members
 
 WITH cte AS (
     SELECT member_casual,rideable_type,count(*) number_of_rides
