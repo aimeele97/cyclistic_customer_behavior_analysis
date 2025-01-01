@@ -1,4 +1,4 @@
--- 1. What is the total number of rides for each rider type (casual vs. member)?
+-- 1. Calculate the total number of rides between casual and member
 
 SELECT member_casual as CustomerType, 
     COUNT(*) as NumberOfRides,
@@ -6,7 +6,7 @@ SELECT member_casual as CustomerType,
 FROM dbo.rides_2024_cleaned
 GROUP BY member_casual;
 
--- 2. How does the monthly ride count compare over the past year?
+-- 2. Calculate the number of rides each month of the year
 
 SELECT MONTH(started_at) as Month, 
     COUNT(*) as NumberOfRides,
@@ -15,7 +15,7 @@ FROM dbo.rides_2024_cleaned
 GROUP BY MONTH(started_at)
 ORDER BY NumberOfRides DESC;
 
--- 3. How do seasonal trends differ between casual and member users?
+-- 3. Calculate the riding trend between casual and member
 
 WITH CTE AS (
     SELECT MONTH(started_at) as Month, member_casual as CustomerType, 
@@ -27,7 +27,7 @@ SELECT *
 FROM CTE
 ORDER BY CustomerType, NumberOfRides DESC;
 
--- 4. Which day of the week has the highest number of rides for each customer group?
+-- 4. Days with the highest ride volume of the week
 
 SELECT member_casual as CustomerType, day_of_a_week, 
     COUNT(*) as NumberOfRides
@@ -35,7 +35,7 @@ FROM dbo.rides_2024_cleaned
 GROUP BY day_of_a_week, member_casual
 ORDER BY NumberOfRides DESC;
 
--- 5. What is the average ride duration for casual and member users?
+-- 5. Calculate average ride duration between casual and member
 
 SELECT member_casual as CustomerType, 
     round(avg(cast(datediff(second, started_at, ended_at) as float)/60),0) AverageDurationMinutes, 
@@ -44,14 +44,14 @@ SELECT member_casual as CustomerType,
 FROM dbo.rides_2024_cleaned
 group by member_casual;
 
--- 6. How does ride duration vary by day of the week for each group?
+-- 6. Average ride duration by day of the week
 
 SELECT member_casual as CustomerType, day_of_a_week Date,
     round(avg(cast(datediff(second, started_at, ended_at) as float)/60),0) AverageDurationMinutes
 FROM dbo.rides_2024_cleaned
 GROUP BY member_casual, day_of_a_week;
 
--- 7. When do riders typically use the service most (by time of day)?
+-- 7.  Calculate the peak hour for rides during the day
 
 SELECT 
     DATEPART(hour, started_at) AS ride_hour,
@@ -62,7 +62,7 @@ FROM dbo.rides_2024_cleaned
 GROUP BY DATEPART(hour, started_at)
 ORDER BY total_rides DESC;
 
---  8. Which 10 locations have the highest ride volumes, and how do the groups differ?
+--  8. Identify the top 10 locations with the highest number of rides
 
 SELECT top 10 
     start_lat, 
@@ -80,7 +80,7 @@ GROUP BY
     start_lat, start_lng, start_station_name
 ORDER BY total_rides DESC, difference DESC;
 
--- 9. How do start and end locations vary between the two rider types?
+-- 9. Identify number of rides at the start and end locations between casual and member
 
 SELECT member_casual,
     COUNT(CASE WHEN start_lat = end_lat AND start_lng = end_lng THEN 1 END) AS same_location_count,
@@ -89,7 +89,7 @@ SELECT member_casual,
 FROM dbo.rides_2024_cleaned
 group by member_casual;
 
--- 10. What is the distribution of bike types used by casual versus member riders?
+-- 10. Calculate the number of rides for each bicycle type between casual and member
 
 WITH cte AS (
     SELECT member_casual,rideable_type,count(*) number_of_rides
