@@ -1,4 +1,4 @@
-# Cyclistic Case Study: Analysing Customer Behaviours to Recommend Marketing Strategies for Converting Casual Members into Annual Members
+# Cyclistic Customer Behaviors Analysis
 
 ## Table of Contents
 1. [Introduction](#1-introduction)  
