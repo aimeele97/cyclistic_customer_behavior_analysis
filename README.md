@@ -1,4 +1,18 @@
-# Cyclistic Customer Behavior Aanlysis
+# Cyclistic Customer Behavior Analysis
+
+# Table of Contents
+
+<!-- TOC -->
+
+- [Project Background](#project-background)
+- [Data Structure & Initial Checks](#data-structure--initial-checks)  
+- [Executive Summary](#executive-summary)  
+   - [Overview of Findings](#overview-of-findings)
+   - [Insights Deep Dive](#insights-deep-dive)
+- [Recommendations](#recommendations)
+- [Assumptions and Caveats](#assumptions-and-caveats)
+
+<!-- /TOC -->
 
 # Project Background
 As part of the __Google Data Analytics Certificate__, this project analyzes Cyclistic’s one-year bike ride data to identify key differences in usage patterns between casual riders and annual members. The goal is to provide actionable insights that help the marketing team develop targeted strategies to convert casual riders into annual members, which is essential for Cyclistic's growth and long-term sustainability.
@@ -28,7 +42,7 @@ An interactive Tableau dashboard used to report and explore ride trends can be f
 
 For scope of this project, I only created a single table in the cyclistic database for analysis. The table contains columns: `rides_id, riable_type, arted_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual`
 
-Total records are 5,906,269 records and 13 variables in previous year
+There are 5,906,269 records and 13 variables in the table.
 
 ![alt text](img/img1.png)
 
@@ -75,9 +89,9 @@ The data reveals that casual riders account for 36.65% of total rides, with elec
 
 - **Main insight 3:** Classic bikes account for a smaller but still significant proportion of rides, with a higher preference among members. This may suggest that members use classic bikes for more routine, practical commuting, whereas casual riders prefer the electric bike or scooter for recreational use.
 
-- **Main insight 4:** The higher frequency of electric bike usage among both groups emphasizes an opportunity to focus on electric bike offerings in marketing and promotional campaigns, as it appeals to both casual and member riders.
+- **Main insight 4:** The higher frequency of electric bike usage among both groups emphasizes an opportunity to focus on electric bike offerings in marketing and promotional campaigns, as it appeals to both casual and member riders.  
 
-  ![alt text](img/image-4.png)
+   <img src="img/image-4.png" alt="alt text" width="350" height="650"/>
 
 ### Category 3: Most popular ride locations for casual users and members
 
@@ -89,7 +103,8 @@ The data reveals that casual riders account for 36.65% of total rides, with elec
 
 - **Main insight 4:** The geographic analysis highlights a potential strategy for targeting specific locations where casual riders dominate, such as popular tourist spots or recreational areas, with localized promotions or membership incentives designed to boost conversions.
 
-  ![alt text](img/image-5.png)
+    <img src="img/image-5.png" alt="alt text" width="650" height="350"/>
+
 
 ### Category 4: Average ride duration (minutes) by day of the week and hour of the day for members and casual riders
 
