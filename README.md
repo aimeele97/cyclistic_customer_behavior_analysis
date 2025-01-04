@@ -4,19 +4,12 @@
 
 <!-- TOC -->
 
-- [Cyclistic Customer Behavior Analysis](#cyclistic-customer-behavior-analysis)
-- [Table of Contents](#table-of-contents)
 - [Project Background](#project-background)
 - [Data Structure & Initial Checks](#data-structure--initial-checks)
 - [Executive Summary](#executive-summary)
-        - [Overview of Findings](#overview-of-findings)
-- [**Insights Deep Dive**](#insights-deep-dive)
-        - [Category 1: Ride patterns by hour of the day, day of the week, and season for casual users and members](#category-1-ride-patterns-by-hour-of-the-day-day-of-the-week-and-season-for-casual-users-and-members)
-        - [**Category 2: Most popular bike types for casual users and members](#category-2-most-popular-bike-types-for-casual-users-and-members)
-        - [Category 3: Most popular ride locations for casual users and members](#category-3-most-popular-ride-locations-for-casual-users-and-members)
-        - [Category 4: Average ride duration minutes by day of the week and hour of the day for members and casual riders](#category-4-average-ride-duration-minutes-by-day-of-the-week-and-hour-of-the-day-for-members-and-casual-riders)
-- [Recommendations:](#recommendations)
-- [Assumptions and Caveats:](#assumptions-and-caveats)
+- [Insights Deep Dive](#insights-deep-dive)
+- [Recommendations](#recommendations)
+- [Assumptions and Caveats](#assumptions-and-caveats)
 
 <!-- /TOC -->
 
