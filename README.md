@@ -7,8 +7,7 @@
 - [Project Background](#project-background)
 - [Data Structure & Initial Checks](#data-structure--initial-checks)  
 - [Executive Summary](#executive-summary)  
-   - [Overview of Findings](#overview-of-findings)
-   - [Insights Deep Dive](#insights-deep-dive)
+- [Insights Deep Dive](#insights-deep-dive)
 - [Recommendations](#recommendations)
 - [Assumptions and Caveats](#assumptions-and-caveats)
 
