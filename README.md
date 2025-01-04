@@ -4,12 +4,19 @@
 
 <!-- TOC -->
 
+- [Cyclistic Customer Behavior Analysis](#cyclistic-customer-behavior-analysis)
+- [Table of Contents](#table-of-contents)
 - [Project Background](#project-background)
-- [Data Structure & Initial Checks](#data-structure--initial-checks)  
-- [Executive Summary](#executive-summary)  
-- [Insights Deep Dive](#insights-deep-dive)
-- [Recommendations](#recommendations)
-- [Assumptions and Caveats](#assumptions-and-caveats)
+- [Data Structure & Initial Checks](#data-structure--initial-checks)
+- [Executive Summary](#executive-summary)
+        - [Overview of Findings](#overview-of-findings)
+- [**Insights Deep Dive**](#insights-deep-dive)
+        - [Category 1: Ride patterns by hour of the day, day of the week, and season for casual users and members](#category-1-ride-patterns-by-hour-of-the-day-day-of-the-week-and-season-for-casual-users-and-members)
+        - [**Category 2: Most popular bike types for casual users and members](#category-2-most-popular-bike-types-for-casual-users-and-members)
+        - [Category 3: Most popular ride locations for casual users and members](#category-3-most-popular-ride-locations-for-casual-users-and-members)
+        - [Category 4: Average ride duration minutes by day of the week and hour of the day for members and casual riders](#category-4-average-ride-duration-minutes-by-day-of-the-week-and-hour-of-the-day-for-members-and-casual-riders)
+- [Recommendations:](#recommendations)
+- [Assumptions and Caveats:](#assumptions-and-caveats)
 
 <!-- /TOC -->
 
@@ -119,21 +126,40 @@ The data reveals that casual riders account for 36.65% of total rides, with elec
 
 # Recommendations:
 
-* **Seasonal Demand (Summer Peak):**  
-   Given that summer is the peak season for bike usage, particularly for casual riders, we recommend focusing marketing efforts during these months to increase visibility and drive conversions. Offer discounts or promotions during the summer to incentivize casual riders to sign up for annual memberships.
+To effectively target casual riders, marketing efforts should focus on the peak months (June to September) and weekends, when casual riders are most active. Highlight electric bikes and scooters, which are popular for leisure rides. Special promotions can be tailored to high-traffic locations like "Streeter Dr & Grand Ave," where casual riders tend to congregate, with the goal of converting them into members. Additionally, the peak activity window from 4:00 PM to 7:00 PM should be targeted with time-sensitive offers or loyalty rewards to increase engagement and retention during these busy hours.
 
-* **Leverage Electric Bike Popularity:**  
-   Both casual and member riders prefer electric bikes, indicating that emphasizing electric bike options in promotional campaigns may appeal to both groups. Highlighting electric bikes as a feature of annual membership could incentivize casual riders to consider switching to a membership for better access to this popular option.
+__These below strategies shoud be cosiders to convert casual into memebrs:__
 
-* **Target Popular Locations for Casual Riders:**  
-   Since casual riders dominate certain popular locations, such as “Streeter Dr & Grand Ave,” we recommend running targeted location-based campaigns to convert these users into members. Use geofencing technology to deliver personalized membership offers to casual riders when they are at these high-traffic areas.
+- **Enhance the Membership Experience with Exclusive Perks:** Focus on enhancing the overall membership experience in ways that are exclusive to members, which makes membership feel more rewarding and valuable.  
 
-* **Introduce Flexible Membership Options:**  
-   Since casual riders tend to ride longer and more leisurely, we recommend offering flexible membership options like "seasonal memberships" or "3-month trials" to appeal to these users who might not be ready for a full-year commitment.
+   - Priority Access: Provide members with priority access to bikes, particularly during peak hours, ensuring rider don’t face availability issues. This will appeal to those who value convenience and predictability.   
+   - Exclusive Access to Premium Bikes/Equipment: Offer members-only access to newer or upgraded models of electric bikes or scooters. Casual riders who enjoy using electric bikes may see this as a significant perk when upgrading to a membership.  
+   - Free Services: Provide casual riders, especially tourists or travelers, with exclusive access to a local guide and customized bike routes/maps when they download the Cyclistic's app. This would help them explore the city with ease and enhance their overall experience.
 
-* **Enhance User Experience for Longer Rides:**  
-   Casual riders tend to ride longer than members, indicating a need for service features tailored to long-duration rides. This could include providing additional benefits for long rides or creating packages that focus on leisurely rides, perhaps paired with location-based offers for longer trips.
+* **Create a Community Experience:** Build a sense of community and belonging among members to make the experience more engaging and less transactional. 
+   - Member-Only Events: Host exclusive events for members, such as group rides, guided tours, or networking events that align with their interests (e.g., health-focused rides, city exploration, or eco-friendly transportation initiatives). This can foster a social element to membership and appeal to casual riders who enjoy recreational riding.
+   - Member Social Spaces: Create physical or virtual spaces (like a members' app or social media group) where members can connect, share their experiences, and learn from each other. These can include tips on great biking routes, sustainability initiatives, or fitness challenges.
+   - Local Partnerships: Partner with local businesses to offer members exclusive benefits like discounts at cafes, restaurants, or stores near popular bike routes. This reinforces the idea that membership brings broader lifestyle benefits beyond just bike usage.
 
+* **Make membership a seamless part of riders’ broader lifestyle—especially for casual riders who might be using bikes for fitness or leisure:** Make membership a seamless part of riders’ broader lifestyle—especially for casual riders who might be using bikes for fitness or leisure.
+   - Fitness Integration: Incorporate fitness tracking features into the app, allowing riders to track their rides, calories burned, and overall progress. For example, “Ride Challenges” can motivate casual riders to hit fitness goals, making them more likely to transition to membership.
+   - Personalized Recommendations: Use data to offer personalized ride suggestions based on past behavior. If a casual rider frequently rides during certain times, suggest local fitness routes, or scenic trails to explore, turning the ride into an ongoing activity rather than just transportation.
+   - Integration with Other Fitness Apps: Allow the bike-sharing service to integrate with popular fitness apps (like Strava, Apple Health, or Fitbit) to give members a more holistic view of their physical activity. Casual riders who enjoy tracking their exercise will find this an added incentive.
+
+* **Offer Flexible Membership Plans:** Provide flexible membership options that cater to varying needs, making it easy for casual riders to transition without feeling locked into a rigid contract.
+   - Flexible Payment Options: Introduce pay-as-you-go or monthly membership options, so casual riders who aren't ready for an annual commitment can still access some membership benefits on a shorter-term basis. For example, they could pay monthly for an annual membership but with the option to cancel at any time.
+   - Tiered Memberships: Offer tiered membership levels that allow casual riders to choose a plan based on how often they ride. For example, a "Weekender Membership" for those who only ride on weekends or a "Commute Plus" for those who ride during weekdays but not every day.
+   - Family or Group Plans: Allow riders to opt for family or group memberships, where they can bundle several users into one membership for a discounted rate. This can encourage casual users who ride with friends or family to consider a membership as a more convenient and cost-effective solution.
+
+* **Provide Better Onboarding and Education:** Focus on educating casual riders about the benefits and convenience of a membership through seamless onboarding.
+   - Interactive Onboarding: When casual riders first use the service, provide a step-by-step interactive tutorial in the app explaining the value of membership (e.g., priority access, unlimited rides, exclusive bike models). Show riders how the system works and how it can save them time and hassle, especially for frequent riders.
+   - Personalized Outreach: After a few rides, use targeted push notifications or emails to inform casual riders about the benefits of becoming a member, such as enhanced convenience, exclusive content, or long-term savings.
+   - Member “Ambassadors”: Empower existing members to act as ambassadors by sharing their positive experiences with casual riders. You could offer non-monetary rewards (e.g., exclusive event invites) to ambassadors who successfully encourage casual riders to join the membership.
+
+* **Sustainability and Eco-Friendly Focus:** Appeal to eco-conscious casual riders by highlighting the environmental benefits of becoming a member and supporting green initiatives.
+   - Carbon Footprint Tracking: Allow riders to track how much CO2 they've saved by using the bike-sharing service. This can resonate with casual riders who care about sustainability, showing that their decision to ride is making a positive impact.
+   - Eco-Friendly Campaigns: Emphasize the eco-friendly nature of membership by promoting that annual memberships help the company maintain and expand its sustainable bike fleet, which could appeal to the environmentally conscious rider. This message can be incorporated into membership materials or shared through educational content.
+ 
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
