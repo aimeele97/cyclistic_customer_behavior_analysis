@@ -66,7 +66,7 @@ The data reveals that casual riders account for 36.65% of total rides, with elec
 
 ![Visualization](img/img2.png)
 
-# **Insights Deep Dive**
+# Insights Deep Dive
 
 ### Category 1: Ride patterns by hour of the day, day of the week, and season for casual users and members
 
@@ -80,15 +80,13 @@ The data reveals that casual riders account for 36.65% of total rides, with elec
 
   ![alt text](img/image-3.png)
 
-### **Category 2: Most popular bike types for casual users and members
+### Category 2: Most popular bike types for casual users and members
 
 - **Main insight 1:** Electric bikes are the preferred choice for both casual and member riders, accounting for the majority of rides. This preference indicates a general trend toward convenience and ease of use, especially for longer rides or more demanding terrain.
 
-- **Main insight 2:** While electric bikes dominate both groups, electric scooters are more popular among casual riders than members. This suggests that casual riders are more likely to opt for a faster, smaller, and more convenient mode of transportation for shorter, leisure-focused rides.
+- **Main insight 2:** Classic bikes are the second most popular bike type, exhibiting ride patterns similar to those of electric bikes.  
 
-- **Main insight 3:** Classic bikes account for a smaller but still significant proportion of rides, with a higher preference among members. This may suggest that members use classic bikes for more routine, practical commuting, whereas casual riders prefer the electric bike or scooter for recreational use.
-
-- **Main insight 4:** The higher frequency of electric bike usage among both groups emphasizes an opportunity to focus on electric bike offerings in marketing and promotional campaigns, as it appeals to both casual and member riders.  
+- **Main insight 3:** While electric bikes and classic bikes are the most popular among member riders, electric scooters are favored by casual riders, though they account for only 2.44% of total rides last year. This suggests that casual riders prefer faster, smaller, and more convenient transportation options for shorter, leisure-focused trips.
 
    <img src="img/image-4.png" alt="alt text" width="350" height="650"/>
 
@@ -118,10 +116,6 @@ The data reveals that casual riders account for 36.65% of total rides, with elec
   ![alt text](img/image-6.png)
 
 # Recommendations:
-
-To effectively target casual riders, marketing efforts should focus on the peak months (June to September) and weekends, when casual riders are most active. Highlight electric bikes and scooters, which are popular for leisure rides. Special promotions can be tailored to high-traffic locations like "Streeter Dr & Grand Ave," where casual riders tend to congregate, with the goal of converting them into members. Additionally, the peak activity window from 4:00 PM to 7:00 PM should be targeted with time-sensitive offers or loyalty rewards to increase engagement and retention during these busy hours.
-
-__These below strategies shoud be cosiders to convert casual into memebrs:__
 
 - **Enhance the Membership Experience with Exclusive Perks:** Focus on enhancing the overall membership experience in ways that are exclusive to members, which makes membership feel more rewarding and valuable.  
 
@@ -153,6 +147,8 @@ __These below strategies shoud be cosiders to convert casual into memebrs:__
    - Carbon Footprint Tracking: Allow riders to track how much CO2 they've saved by using the bike-sharing service. This can resonate with casual riders who care about sustainability, showing that their decision to ride is making a positive impact.
    - Eco-Friendly Campaigns: Emphasize the eco-friendly nature of membership by promoting that annual memberships help the company maintain and expand its sustainable bike fleet, which could appeal to the environmentally conscious rider. This message can be incorporated into membership materials or shared through educational content.
  
+ To effectively target casual riders, marketing efforts should focus on the peak months (June to September) and weekends, when they are most active. Highlight electric and classic bikes, which are popular among both casual and member riders. Tailored marketing campaigns should be directed at high-traffic locations like "Streeter Dr & Grand Ave," where casual riders tend to gather, with the goal of converting them into members. Additionally, marketing during the peak activity window from 4:00 PM to 7:00 PM can help attract more attentions during these high-demand hours.
+
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
