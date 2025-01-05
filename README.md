@@ -25,7 +25,7 @@ Insights and recommendations are provided on the following key areas:
 - **Category 1**: Ride patterns by hour of the day, day of the week, and season for casual users and members
 - **Category 2**: Most popular bike types for casual users and members
 - **Category 3**: Most popular ride locations for casual users and members
-- **Category 4**: Average ride duration (minutes) by day of the week and hour of the day for members and casual riders  
+- **Category 4**: Average ride duration (minutes) by day of the week and hour of the day for casual users and members 
 
 Data sources can be found here [link](https://divvy-tripdata.s3.amazonaws.com/index.html).  
   
