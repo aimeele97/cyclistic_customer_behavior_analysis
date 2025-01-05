@@ -29,7 +29,7 @@ Insights and recommendations are provided on the following key areas:
 
 Data sources can be found here [link](https://divvy-tripdata.s3.amazonaws.com/index.html).  
   
-The Python script used to integrate 12-month CSV file data (from December 2023 to November 2024) can be found here [link](./Combine_Datasets.ipynb).  
+The Python script used to integrate 12-month CSV file data (from December 2023 to November 2024) can be found here [link](./Data_Integration.ipynb).
   
 The SQL queries used to inspect and clean the data for this analysis can be found here [link](Data_Cleaning.sql).  
 
