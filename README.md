@@ -45,10 +45,6 @@ There are 5,906,269 records and 13 variables in the table.
 
 ![alt text](img/img1.png)
 
-__Desplay the first 10 rows of the table__
-
-![img](img/img.png)
-
 __Data cleaning and transformation code__
 
 ![alt text](img/image.png)
