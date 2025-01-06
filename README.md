@@ -44,11 +44,6 @@ For scope of this project, I only created a single table in the cyclistic databa
 There are 5,906,269 records and 13 variables in the table.
 
 ![alt text](img/img1.png)
-
-__Data cleaning and transformation code__
-
-![alt text](img/image.png)
-![alt text](img/image-1.png)
   
 There were some null values in the start and end locations; however, these rows still contained valid latitude and longitude data. Since this does not affect my analysis, I decided to not delete these rows.
   
