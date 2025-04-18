@@ -55,8 +55,9 @@ The table after cleaning has 5,905,278 records (991 rows were deleted)
 
 The data reveals that casual riders account for 36.65% of total rides, with electric bikes being the most popular choice, comprising 50.66% of all rides. Key trends show that summer is the peak season, and casual riders tend to use bikes on weekends, while members prefer mid-week rides, particularly Wednesdays. Additionally, casual riders have longer ride durations (approximately 25 minutes vs. 13 minutes for members) and exhibit distinct travel patterns, with notable differences in departure and destination locations, such as the dominance of casual rides at the 'Streeter Dr & Grand Ave' station.
 
-![Visualization](img/img2.png)
+Dashboard: 
 
+![alt text](img/dashboard.png)
 # Insights Deep Dive
 
 ### Category 1: Ride patterns by hour of the day, day of the week, and season for casual users and members
@@ -69,7 +70,8 @@ The data reveals that casual riders account for 36.65% of total rides, with elec
 
 - **Main insight 4:** Both casual and member riders have a high concentration of activity in the late afternoon to early evening, particularly between 4:00 PM and 7:00 PM. This suggests a peak in demand for both types of riders during these hours, potentially influenced by work commutes and leisure activities after the workday ends.
 
-  ![alt text](img/image-3.png)
+  ![alt text](img/day.png)
+  ![alt text](img/month.png)
 
 ### Category 2: Most popular bike types for casual users and members
 
@@ -79,7 +81,7 @@ The data reveals that casual riders account for 36.65% of total rides, with elec
 
 - **Main insight 3:** While electric bikes and classic bikes are the most popular among member riders, electric scooters are favored by casual riders, though they account for only 2.44% of total rides last year. This suggests that casual riders prefer faster, smaller, and more convenient transportation options for shorter, leisure-focused trips.
 
-   <img src="img/image-4.png" alt="alt text" width="350" height="650"/>
+  ![alt text](img/vi_bytype.png)
 
 ### Category 3: Most popular ride locations for casual users and members
 
@@ -90,8 +92,6 @@ The data reveals that casual riders account for 36.65% of total rides, with elec
 - **Main insight 3:** Despite casual riders comprising 36.65% of total rides, they contribute significantly to top ride locations, such as "Streeter Dr & Grand Ave." This indicates a need to explore marketing strategies that target casual riders at these high-traffic locations, with an eye toward converting them into members.
 
 - **Main insight 4:** The geographic analysis highlights a potential strategy for targeting specific locations where casual riders dominate, such as popular tourist spots or recreational areas, with localized promotions or membership incentives designed to boost conversions.
-
-    <img src="img/image-5.png" alt="alt text" width="650" height="350"/>
 
 
 ### Category 4: Average ride duration (minutes) by day of the week and hour of the day for members and casual riders
@@ -104,7 +104,7 @@ The data reveals that casual riders account for 36.65% of total rides, with elec
 
 - **Main insight 4:** The longer ride durations for casual riders highlight a potential opportunity to offer tailored promotions that encourage extended use, such as discounts on longer trips or offers for those who ride during off-peak hours to balance demand.
 
-  ![alt text](img/image-6.png)
+  ![alt text](duration.png)
 
 # Recommendations:
 
