@@ -81,7 +81,7 @@ Dashboard:
 
 - **Main insight 3:** While electric bikes and classic bikes are the most popular among member riders, electric scooters are favored by casual riders, though they account for only 2.44% of total rides last year. This suggests that casual riders prefer faster, smaller, and more convenient transportation options for shorter, leisure-focused trips.
 
-  ![alt text](img/vi_bytype.png)
+  ![alt text](img/biketypes.png)
 
 ### Category 3: Most popular ride locations for casual users and members
 
@@ -104,7 +104,7 @@ Dashboard:
 
 - **Main insight 4:** The longer ride durations for casual riders highlight a potential opportunity to offer tailored promotions that encourage extended use, such as discounts on longer trips or offers for those who ride during off-peak hours to balance demand.
 
-  ![alt text](duration.png)
+  ![alt text](img/avgduration.png)
 
 # Recommendations:
 
