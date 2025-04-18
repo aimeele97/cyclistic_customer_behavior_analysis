@@ -35,7 +35,7 @@ The SQL queries used to inspect and clean the data for this analysis can be foun
 
 The SQL queries regarding various business questions can be found here [link](Data_Analysis.sql).
 
-An interactive Tableau dashboard used to report and explore ride trends can be found here [link](https://public.tableau.com/app/profile/aimee.le9707/viz/CyclisticDashboard_17343165311580/Dashboard1).
+An interactive Tableau dashboard used to report and explore ride trends can be found here [link](https://public.tableau.com/authoring/CyclisticCustomerBehaviourDashboard/Dashboard2#1).
   
 # Data Structure & Initial Checks
 
