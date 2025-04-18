@@ -70,7 +70,7 @@ Dashboard:
 
 - **Main insight 4:** Both casual and member riders have a high concentration of activity in the late afternoon to early evening, particularly between 4:00 PM and 7:00 PM. This suggests a peak in demand for both types of riders during these hours, potentially influenced by work commutes and leisure activities after the workday ends.
 
-  ![alt text](img/day.png)
+  ![alt text](<img/ride by day.png>)
   ![alt text](img/month.png)
 
 ### Category 2: Most popular bike types for casual users and members
